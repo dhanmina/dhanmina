@@ -1,10 +1,10 @@
 # Dhanrev Mina
 
-Fresh BSIT grad who actually ships stuff people use, not just tutorial clones.
+Ships stuff people actually use, not tutorial clones. Fresh BSIT grad.
 
 **Open to remote work** &nbsp;·&nbsp; [dhanmina.dev](https://dhanmina.dev) &nbsp;·&nbsp; [dhanmina15@gmail.com](mailto:dhanmina15@gmail.com)
 
-I build things people actually use. A college attendance app that won a university research award, a daily photo game I'm building solo with Claude Code, and an n8n workflow that triages job leads. Everything below is a real repo, a real award, or a real running tool, nothing inflated.
+I build things people actually use. A college attendance app that won a university research award, a solar-powered charging station that runs on plastic bottles, and a daily photo app I'm building solo with Claude Code. Everything below is a real repo, a real award, or a real running tool, nothing inflated.
 
 ---
 
@@ -18,23 +18,23 @@ Mobile-based event attendance system for UCV's College of IT. Per-student QR cod
 
 *React Native · Expo · Node/Express · MySQL · Socket.io*
 
+### [ReChargeBin](https://github.com/dhanmina/ReChargeBin)
+
+Shipped · Team of 6
+
+Solar-powered phone charging station that runs on plastic bottles instead of money: drop one in, pick a slot, charge. The panel tracks the sun across 180°, for 25–45% more output than fixed placement. Two Arduino Unos split user-facing and sensing duties, synced over serial. I was the system programmer on the team.
+
+*Arduino · C++ · Embedded Systems · Solar*
+
 ### [Piqa](https://github.com/dhanmina/piqa)
 
 Active build · Solo
 
-A daily photo game with no feed, no followers, and no likes. One shared prompt, blind pairwise voting, Bradley-Terry ranking, offline-first capture. Building it solo to properly learn Supabase and Expo Router, with Claude Code.
+A daily photo streak app: no feed, no likes, no gate to clear before capturing. Miss a day and two freezes a week cover it. The streak renders as one continuous ink trace instead of cards or dots, with an opt-in Buddies layer for a reciprocal peek at a friend's history. Building it solo end to end with Claude Code, from the Postgres schema up.
 
 *React Native · Expo · TypeScript · Supabase · Postgres*
 
-### [Notegrab](https://github.com/dhanmina/notegrab)
-
-Active build · Solo
-
-Self-hosted tool that saves Zoom/Drive class recordings before the link expires, with resumable multi-threaded downloads and a Playwright fallback when the API is blocked. Also converts Google Docs/Forms into study material.
-
-*Python · Flask · Playwright*
-
-More at [dhanmina.dev](https://dhanmina.dev): Nuvora (SwiftUI health app), ReChargeBin (solar-powered charging hardware), and the rest. Or check the pinned repos below.
+Plus an n8n workflow that triages job leads with a two-stage LLM classifier. More at [dhanmina.dev](https://dhanmina.dev).
 
 ---
 
@@ -42,7 +42,7 @@ More at [dhanmina.dev](https://dhanmina.dev): Nuvora (SwiftUI health app), ReCha
 
 **Core**
 
-<img src="https://cdn.simpleicons.org/react/8B8B93" width="16" height="16" alt="" /> React &nbsp;&nbsp; React Native &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/nodedotjs/8B8B93" width="16" height="16" alt="" /> Node.js &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/express/8B8B93" width="16" height="16" alt="" /> Express &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/mysql/8B8B93" width="16" height="16" alt="" /> MySQL &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/mongodb/8B8B93" width="16" height="16" alt="" /> MongoDB &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/supabase/8B8B93" width="16" height="16" alt="" /> Supabase &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/firebase/8B8B93" width="16" height="16" alt="" /> Firebase &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/expo/8B8B93" width="16" height="16" alt="" /> Expo
+<img src="https://cdn.simpleicons.org/react/8B8B93" width="16" height="16" alt="" /> React &nbsp;&nbsp; React Native &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/nodedotjs/8B8B93" width="16" height="16" alt="" /> Node.js &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/express/8B8B93" width="16" height="16" alt="" /> Express &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/typescript/8B8B93" width="16" height="16" alt="" /> TypeScript &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/mysql/8B8B93" width="16" height="16" alt="" /> MySQL &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/mongodb/8B8B93" width="16" height="16" alt="" /> MongoDB &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/supabase/8B8B93" width="16" height="16" alt="" /> Supabase &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/firebase/8B8B93" width="16" height="16" alt="" /> Firebase &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/expo/8B8B93" width="16" height="16" alt="" /> Expo &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/arduino/8B8B93" width="16" height="16" alt="" /> Arduino &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/cplusplus/8B8B93" width="16" height="16" alt="" /> C++ &nbsp;&nbsp; Embedded Systems
 
 **Tools**
 
